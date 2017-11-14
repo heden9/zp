@@ -1,0 +1,46 @@
+.machine-page{
+
+}
+
+.machine-page h3{
+    text-align: center;
+}
+
+.chart-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.ball-chart{
+    text-align: center;
+}
+.ball-chart .ball{
+    border-radius: 50%;
+    border: 7px solid black;
+    height: 100px;
+    width: 100px;
+}
+.red.ball{
+    border-color: rgb(249,14,27);
+    color: rgb(249,14,27);
+}
+.orange.ball{
+    border-color: rgb(233,106,72);
+    color: rgb(233,106,72);
+}
+.yellow.ball{
+    border-color: rgb(252,240,53);
+    color: rgb(252,240,53);
+}
+.blue.ball{
+    border-color: rgb(26,161,231);
+    color: rgb(26,161,231);
+}
+.ball-chart .ball span{
+    font-size: 45px;
+    line-height: 100px;
+}
+.ball-chart h5{
+    margin: 10px 0;
+}
